@@ -1,0 +1,40 @@
+:start geometry definition:
+    :start geometry:
+        library = egs_cones
+        type = EGS_ConeStack
+        name = 3C
+        axis = -1.26275 0 0 1 0 0
+        
+        :start layer:
+    		thickness    = 0.456
+    		top radii    = 1.175
+    		bottom radii = 1.175
+    		media        = graphite
+		:stop layer:
+	
+		:start layer:
+    		thickness    = 0.4133
+    		top radii    = 0.7919 1.175
+    		bottom radii = 0.7919 1.175
+    		media        = air graphite
+		:stop layer:
+
+		:start layer:
+    		thickness    = 1.2002
+    		top radii    = 0.3352 0.7919 1.175
+    		bottom radii = 0.3352 0.7919 1.175
+    		media        = graphite air graphite
+		:stop layer:
+
+		:start layer:
+    		thickness    = 0.456
+    		top radii    = 1.175
+    		bottom radii = 1.175
+    		media        = graphite
+		:stop layer:
+		
+    :stop geometry:
+
+    simulation geometry = 3C
+
+:stop geometry definition:
